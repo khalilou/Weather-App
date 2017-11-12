@@ -1,0 +1,19 @@
+h1,h2{
+  color:white;
+}
+
+div.rain::before {
+    content:'\26C8';
+    font-size:50px;
+    
+}
+div.cloud::before {
+    content:'\2601';
+  font-size:50px;
+    
+}
+.clear:before {
+    content:'\2600';
+    font-size:50px;
+    
+}
